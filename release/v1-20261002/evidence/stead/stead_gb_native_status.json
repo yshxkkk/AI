@@ -1,0 +1,17 @@
+{
+  "status": "pending_missing_input",
+  "scope": "real_domain_stead_12k_gb_native",
+  "data_dir": "raw_source",
+  "required_files": [
+    "test.hdf5",
+    "test_noise.hdf5"
+  ],
+  "missing_files": [
+    "raw_source/test.hdf5",
+    "raw_source/test_noise.hdf5"
+  ],
+  "canonical_tables_unchanged": true,
+  "reason": "The release contains frozen derived STEAD tables but not the raw HDF5 arrays. A native real-domain allocator cannot be rerun from p_point or cell_id without reusing the old allocation.",
+  "next_step": "Place checksum-verified Zenodo 12,000-window HDF5 inputs in data_dir and rerun this script; do not promote pending output to a result."
+}
+
