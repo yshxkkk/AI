@@ -1,0 +1,37 @@
+{
+  "status": "measured_descriptive_stratified_closure_and_assigned_event_decomposition",
+  "n_regions": 64,
+  "stratifiers": [
+    "support_dev",
+    "radius95",
+    "transfer_factor"
+  ],
+  "strata_definition": "rank-tie-broken quartiles Q1 (lowest) through Q4 (highest), frozen before aggregation",
+  "uncertainty_method": "independent Poisson delta method; audit labels fixed for reporting; no null resampling",
+  "total_development_on": 629946,
+  "total_development_sideband": 70017,
+  "total_audit_on": 269756,
+  "total_audit_sideband": 30229,
+  "total_signal_labels": 263,
+  "total_assigned_audit_mass": 299985,
+  "weighted_closure_ratio_observed": 0.991856029360739,
+  "weighted_closure_ratio_signal_subtracted": 0.9908890142221625,
+  "weighted_closure_ratio_signal_subtracted_ci95": [
+    0.9767881528229514,
+    1.0049898756213735
+  ],
+  "weighted_expected_background_se": 1903.8358272081568,
+  "transfer_factor_range": [
+    8.954545454545455,
+    9.372282608695652
+  ],
+  "assigned_decomposition_rows": 126,
+  "assigned_decomposition_consistency_max_abs": 0,
+  "source_sha256": {
+    "regions": "520930cc72449c935433579a99b4b4279d6a0baa46eda217bd4c89d0668642f3",
+    "matched_fpr": "4503b8aaeb0cd80d932cde39920d4e636600af49dd0fd20bb437a48c774c363d",
+    "closure": "6b858019c4e8d5f5355385c70b1b157ad1ece17b54b94bbcc7016803e27796dc"
+  },
+  "interpretation": "Descriptive cross-split closure with propagated counting uncertainty and a prefix assigned-event breakdown. The audit split contains retrospective public labels; this is not a background-only negative-control closure, and it does not propagate detector/systematic uncertainty, look-elsewhere effects, or downstream physics-fit cost."
+}
+
