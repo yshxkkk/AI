@@ -1,0 +1,180 @@
+{
+  "release_id": "from-point-scores-to-certified-regional-probabilities-v1.2026-10-02",
+  "status": "frozen_for_submission",
+  "authority": "evidence/CLAIM_LEDGER_V1.md",
+  "levels": {
+    "T1": "formal_or_conditional_theorem",
+    "T2": "measured_declared_audit",
+    "T3": "descriptive_or_model_assisted",
+    "T4": "protocol_only_or_pending",
+    "T5": "rejected_or_superseded"
+  },
+  "canonical_models": [
+    "point-logistic",
+    "GB-Logistic-H",
+    "GB-Logistic-S"
+  ],
+  "registered_protocol_only_extensions": [
+    "GB-Logistic-PP",
+    "GB-Beta-Binomial-S",
+    "GB-cloglog-Hazard-S",
+    "GB-Dirichlet-S"
+  ],
+  "promotion_rule": {
+    "all_required": [
+      "clean_point_non_inferiority",
+      "independent_validation_certified_subset_gain_or_non_inferiority",
+      "no_false_pass_in_declared_certificate_audit",
+      "boundary_trigger_and_fail_closed_fallback",
+      "resource_and_assigned_work_measure",
+      "zero_radius_or_zero_local_term_closure"
+    ],
+    "new_object_version_on_change": [
+      "representation",
+      "centres",
+      "radii",
+      "metric",
+      "tie_rule",
+      "local_head",
+      "deployment_measure",
+      "assignment_fingerprint"
+    ],
+    "failure_status": "SI_or_protocol_only"
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "level": "T1",
+      "topic": "regional_probability_object",
+      "status": "headline",
+      "evidence": "main Introduction/Discussion; evidence/head_registry",
+      "non_claim": "not a new probability axiom; no uniqueness claim for every field"
+    },
+    {
+      "id": "C02",
+      "level": "T1",
+      "topic": "object_certificate_failure_protocol",
+      "status": "headline",
+      "evidence": "main operating chain; SI implementation contract",
+      "non_claim": "conditional reuse/compression/stability only"
+    },
+    {
+      "id": "C03",
+      "level": "T1",
+      "topic": "zero_radius_semantic_closure",
+      "status": "headline",
+      "evidence": "SI zero-radius theorem; evidence/conditional_benefits/verify_zero_radius_closure.py",
+      "assumptions": "singleton_identity_allocation"
+    },
+    {
+      "id": "C04",
+      "level": "T1",
+      "topic": "certificate_sufficiency",
+      "status": "headline_conditional",
+      "evidence": "SI theorem; evidence/theorem_coverage",
+      "non_claim": "not distribution_free or external coverage"
+    },
+    {
+      "id": "C05",
+      "level": "T1_T2",
+      "topic": "canonical_head_and_controls",
+      "status": "headline",
+      "evidence": "evidence/head_registry/HEAD_REGISTRY.json",
+      "non_claim": "not a leaderboard or pointwise dominance claim"
+    },
+    {
+      "id": "C06",
+      "level": "T3",
+      "topic": "GB_Logistic_S_clean_and_moderate_perturbation",
+      "status": "conditional_signal",
+      "evidence": "evidence/conditional_benefits/gblogistic_s_perturbation_stress_*",
+      "non_claim": "not external confirmation or universal robustness"
+    },
+    {
+      "id": "C07",
+      "level": "T2_T3",
+      "topic": "boundary_fallback",
+      "status": "measured_declared_audit",
+      "evidence": "S perturbation certificates/fallback records",
+      "scope": "declared metric, perturbation and gate"
+    },
+    {
+      "id": "C08",
+      "level": "T2",
+      "topic": "solar_historical_action_boundary",
+      "status": "measured_rejection_fallback",
+      "evidence": "evidence/solar; evidence/conditional_benefits/solar_conditional_benefit_*",
+      "non_claim": "2019_2024_external_transport_not_claimed"
+    },
+    {
+      "id": "C09",
+      "level": "T2",
+      "topic": "stead_phase_net_input_tradeoff",
+      "status": "measured_subsample_audit",
+      "evidence": "evidence/stead/stead_phasenet_wallclock_receipt.json",
+      "non_claim": "not matched_recall_saving, full_release_accuracy or operational utility"
+    },
+    {
+      "id": "C10",
+      "level": "T2",
+      "topic": "lhc_candidate_compression_tradeoff",
+      "status": "measured_boundary",
+      "evidence": "evidence/lhco",
+      "non_claim": "not downstream_fit_time or discovery_significance"
+    },
+    {
+      "id": "C11",
+      "level": "T2_T3",
+      "topic": "head_registry_extensibility",
+      "status": "protocol_and_screen",
+      "evidence": "evidence/head_registry; evidence/next_upgrade/probability_heads",
+      "non_claim": "no fourth head promoted"
+    },
+    {
+      "id": "C12",
+      "level": "T2",
+      "topic": "reproducibility_scope",
+      "status": "release_audit",
+      "evidence": "REPRODUCE_NATURE_REVISION.sh; release_audit",
+      "non_claim": "pending raw branches are not zero results"
+    },
+    {
+      "id": "C13",
+      "level": "T3",
+      "topic": "gb_native_allocator_identity_audit",
+      "status": "fixed_synthetic_allocator_audit",
+      "evidence": "evidence/gb_native/gb_native_allocator_metrics.csv; evidence/gb_native/gb_native_allocator_summary.csv; evidence/gb_native/gb_native_allocator_meta.json",
+      "reported_values": "clean_brier_gb_native_s=0.19740; clean_brier_point=0.19829; mean_delta=-0.00089; label_flip_20_percent_query_pass=0.015; label_flip_20_percent_point_fallback=0.985",
+      "non_claim": "not external transport, universal native-allocator advantage or headline accuracy gain"
+    },
+    {
+      "id": "C14",
+      "level": "T2/T3",
+      "topic": "grouped_robustness_audit",
+      "status": "declared_unit_descriptive_audit",
+      "evidence": "evidence/group_robustness/group_robustness_summary.csv; evidence/group_robustness/group_robustness_domain_status.csv",
+      "reported_values": "STEAD_station_bootstrap_region_minus_point_brier=+0.01894_[+0.00999,+0.02970]; STEAD_calls80_diff=+34_[+8,+74]; EEG_granular_region_subject_coverage=0.516; Solar_HARPNUM_group_risk_interval=not_available",
+      "non_claim": "no universal group robustness, clinical validity, Solar transport validity or matched-recall resource saving"
+    },
+    {
+      "id": "C15",
+      "level": "T2",
+      "topic": "p5_head_registry_gate_integrity",
+      "status": "deterministic_release_integrity_audit",
+      "evidence": "evidence/head_registry/P5_HEAD_GATE_AUDIT_SUMMARY.json; evidence/head_registry/P5_HEAD_GATE_AUDIT_META.json; evidence/head_registry/P5_HEAD_GATE_AUDIT_README_CN.md",
+      "non_claim": "no extension promotion and no new precision, robustness, resource or external-validation result"
+    }
+  ],
+  "explicit_non_claims": [
+    "no_universal_regional_accuracy_gain",
+    "no_universal_robustness_gain",
+    "no_universal_resource_or_energy_saving",
+    "no_constant_ball_probability_replacement",
+    "no_external_2019_2024_solar_transport_validation",
+    "no_distribution_free_or_external_pointwise_coverage",
+    "no_universal_gb_native_allocator_advantage",
+    "no_particle_discovery_or_solar_flare_mechanism_claim",
+    "no_clinical_or_operational_earthquake_warning_claim"
+  ]
+}
+
