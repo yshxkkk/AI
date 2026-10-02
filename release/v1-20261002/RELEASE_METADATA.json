@@ -1,0 +1,73 @@
+{
+  "release_id": "from-point-scores-to-certified-regional-probabilities-v1",
+  "release_tag": "from-point-scores-to-certified-regional-probabilities-v1.2026-10-02",
+  "license": "MIT",
+  "scope": "theory; STEAD downstream-call audit; solar 2010-2018 model/evaluation; 2019-2024 external protocol-only; LHC boundary audit; unified failure boundary; support-adaptive partial-pooling GB-Logistic protocol; finite-menu joint geometry protocol; separate action-estimand protocol",
+  "solar_model_period": "2010-2018",
+  "digits_source": "sklearn.datasets.load_digits",
+  "permanent_repository": "https://github.com/yshxkkk/AI",
+  "doi": null,
+  "repository_status": "target repository identified; release branch pending push",
+  "solar_external_audit_status": "2019-2024 protocol-only; no external metrics in release",
+  "uncertainty_status": "descriptive intervals by station, subject and fixed-block perturbation seed; LHCO ranges only because repeat identifiers are non-unique",
+  "reuse_status": "normalized frozen-allocation operation-count replay with an equally capable generic-cache comparator; no hardware or downstream-time claim",
+  "initialization_status": "digits-only descriptive sensitivity audit; explicit k-means++ multi-start and support-guard helper added; frozen STEAD/Solar/LHCO headline tables unchanged",
+  "boundary_scale_audit_status": "fixed-assignment Solar 24/48 h and five-seed Digits quality/routing audit; no point-noninferior precision or measured speed promotion",
+  "latest_manuscript_revision": "2026-10-02 v1: zero-radius point closure; finite-sample certificate sufficiency; conditional resource and robustness consequences; formal audited release",
+  "manuscript_title": "From Point Scores to Certified Regional Probabilities",
+  "version": "v1",
+  "release_date": "2026-10-02",
+  "submission_document_date": "2026-09-30",
+  "conditional_evidence_version": "conditional-benefits-v1-partial-model-assisted",
+  "conditional_evidence_status": "historical Solar outer-time partial gate; 20-seed synthetic descriptive extension; no unconditional coverage or fresh 2019-2024 confirmation",
+  "claim_ledger": {
+    "path_markdown": "evidence/CLAIM_LEDGER_V1.md",
+    "path_json": "evidence/CLAIM_LEDGER_V1.json",
+    "status": "frozen_for_submission",
+    "claim_count": 15,
+    "canonical_head": "GB-Logistic-S",
+    "control_heads": [
+      "point-logistic",
+      "GB-Logistic-H"
+    ],
+    "promoted_extension_heads": [],
+    "explicit_non_claims": [
+      "no_universal_regional_accuracy_gain",
+      "no_universal_robustness_gain",
+      "no_universal_resource_or_energy_saving",
+      "no_external_2019_2024_solar_transport_validation",
+      "no_distribution_free_or_external_pointwise_coverage",
+      "no_universal_gb_native_allocator_advantage"
+    ]
+  },
+  "p5_head_gate_audit": {
+    "status": "PASS",
+    "summary": "evidence/head_registry/P5_HEAD_GATE_AUDIT_SUMMARY.json",
+    "metadata": "evidence/head_registry/P5_HEAD_GATE_AUDIT_META.json",
+    "readme": "evidence/head_registry/P5_HEAD_GATE_AUDIT_README_CN.md",
+    "scope": "released registry schema, zero-radius closure and fallback consistency only",
+    "new_structure_search": false,
+    "recomputed_precision": false,
+    "promoted_extension_heads": []
+  },
+  "main_pages": 11,
+  "supplementary_pages": 68,
+  "gb_native_allocator_status": "12-seed synthetic implementation/failure-boundary audit; not external accuracy promotion",
+  "stead_matched_recall_status": "12,000-window station-hash holdout; 0.80 point 815 traces versus regional 839 assigned traces; no matched-recall call saving",
+  "lhc_lightweight_closure_status": "64-cell descriptive sideband-transfer and processing audit; no background-only closure, detector systematic, look-elsewhere or downstream-fit claim",
+  "solar_transport_handoff_status": "small fail-closed raw-FITS/provider-feature/GOES-HEK interface; pending raw inputs and no predictive external metric",
+  "github_release_handoff": {
+    "connection_status": "connected_and_search_verified",
+    "target_repository": "yshxkkk/AI",
+    "write_status": "admin_permission_verified; release_branch_pending_push",
+    "required_permissions": [
+      "Contents: write",
+      "Pull requests: write"
+    ],
+    "handoff_doc": "evidence/github/GITHUB_RELEASE_HANDOFF_CN.md"
+  },
+  "stead_gb_native_allocator_status": "pending_missing_input; fail-closed runner added; no real-domain metric promoted without external 12k HDF5",
+  "group_robustness_status": "236-station STEAD, 19-subject EEG and Solar action/support grouped audit; descriptive declared-unit intervals only",
+  "lhc_p4_lightweight_status": "stratified closure with counting-only delta-method intervals and assigned-event decomposition; no prospective/systematic/discovery claim"
+}
+
