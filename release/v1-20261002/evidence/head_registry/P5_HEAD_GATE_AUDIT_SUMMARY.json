@@ -1,0 +1,107 @@
+{
+  "alignment_checks": {
+    "canonical_head_matches_ledger": true,
+    "control_heads_match_ledger": true,
+    "extension_list_matches_ledger": true,
+    "failure_status_is_protocol_only": true,
+    "no_extension_marked_promoted": true,
+    "promotion_rule_matches_ledger": true,
+    "screen_meta_is_descriptive": true
+  },
+  "audit_id": "P5-head-gate-audit-v1",
+  "claim_boundary": "No extension is promoted; no new precision, robustness or resource claim is added by this audit.",
+  "extensions": {
+    "GB-Beta-Binomial-S": {
+      "clean_screen_noninferior": true,
+      "decision": "SI_or_protocol_only",
+      "promotion_gate_passed": false,
+      "registry_status": "protocol_only_no_confirmatory_experiment"
+    },
+    "GB-Dirichlet-S": {
+      "clean_screen_noninferior": false,
+      "decision": "SI_or_protocol_only",
+      "promotion_gate_passed": false,
+      "registry_status": "protocol_only_multiclass_extension"
+    },
+    "GB-Logistic-PP": {
+      "clean_screen_noninferior": true,
+      "decision": "SI_or_protocol_only",
+      "promotion_gate_passed": false,
+      "registry_status": "protocol_only_unvalidated_incremental_gain"
+    },
+    "GB-cloglog-Hazard-S": {
+      "clean_screen_noninferior": true,
+      "decision": "SI_or_protocol_only",
+      "promotion_gate_passed": false,
+      "registry_status": "Solar_protocol_only; current hazard probe not promoted"
+    }
+  },
+  "fallback_checks": {
+    "boundary_crossing_all_fail_closed": true,
+    "boundary_crossing_all_point_fallback": true,
+    "boundary_crossing_rows_present": true,
+    "fraction_encoding_identity": true,
+    "large_stress_fail_closed_floor": true,
+    "large_stress_rows_present": true,
+    "moderate_assignment_preserving": true,
+    "moderate_assignment_preserving_rows_present": true
+  },
+  "promotion_gates": {
+    "boundary_trigger_and_fail_closed_fallback": true,
+    "clean_point_non_inferiority": false,
+    "independent_validation_certified_subset_gain_or_non_inferiority": false,
+    "no_false_pass_in_declared_certificate_audit": false,
+    "resource_and_assigned_work_measure": false,
+    "zero_radius_or_zero_local_term_closure": true
+  },
+  "registry_check": {
+    "json": null,
+    "returncode": 0,
+    "script": "evidence/head_registry/verify_head_registry.py",
+    "status": "PASS",
+    "stdout_sha256": "ec6bf99b20433d0228a080a9911f7dd84d41dfa9541d3e8527d553651233e1b3"
+  },
+  "release_id": "from-point-scores-to-certified-regional-probabilities-v1.2026-10-02",
+  "scope": "deterministic integrity checks over released head registry, closure and fallback records; no new fit or precision estimate",
+  "status": "PASS",
+  "zero_radius_check": {
+    "bundled_result": {
+      "path": "evidence/conditional_benefits/zero_radius_closure_result.json",
+      "sha256": "4a4db2468e0001bed598755c6b82885806cbdb6f3f2377d0c9449e6451381361",
+      "status": "PASS"
+    },
+    "checker": {
+      "json": {
+        "abstention_action_equal": true,
+        "abstention_policy": "abstain when abs(p-0.5) <= 0.06",
+        "brier_equal": true,
+        "ece_equal": true,
+        "estimator_dirac_equals_point_prediction": true,
+        "logloss_equal": true,
+        "n": 97,
+        "note": "Finite numerical closure check; true-target validity and fitted-model calibration still require the theorem's assumptions.",
+        "objective_equal": true,
+        "paired_interval_equal": true,
+        "point_objective": 2.2025797715461013,
+        "prediction_equal": true,
+        "ranking_equal_with_index_tie_break": true,
+        "status": "PASS",
+        "threshold_action_equal_with_ge_tie_rule": true,
+        "threshold_tie_policy": ">= 0.5 is class 1",
+        "tie_policy": "descending probability; original index ascending",
+        "top_k": 19,
+        "top_k_equal": true,
+        "true_dirac_target_equals_response": true,
+        "true_target_and_estimator_are_separate_objects": true,
+        "utility_equal": true,
+        "zero_objective": 2.2025797715461013
+      },
+      "returncode": 0,
+      "script": "evidence/conditional_benefits/verify_zero_radius_closure.py",
+      "status": "PASS",
+      "stdout_sha256": "4a4db2468e0001bed598755c6b82885806cbdb6f3f2377d0c9449e6451381361"
+    },
+    "pass": true
+  }
+}
+
