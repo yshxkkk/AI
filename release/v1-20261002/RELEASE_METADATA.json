@@ -24,7 +24,7 @@
     "path_markdown": "evidence/CLAIM_LEDGER_V1.md",
     "path_json": "evidence/CLAIM_LEDGER_V1.json",
     "status": "frozen_for_submission",
-    "claim_count": 15,
+    "claim_count": 16,
     "canonical_head": "GB-Logistic-S",
     "control_heads": [
       "point-logistic",
@@ -55,7 +55,7 @@
   "gb_native_allocator_status": "12-seed synthetic implementation/failure-boundary audit; not external accuracy promotion",
   "stead_matched_recall_status": "12,000-window station-hash holdout; 0.80 point 815 traces versus regional 839 assigned traces; no matched-recall call saving",
   "lhc_lightweight_closure_status": "64-cell descriptive sideband-transfer and processing audit; no background-only closure, detector systematic, look-elsewhere or downstream-fit claim",
-  "solar_transport_handoff_status": "small fail-closed raw-FITS/provider-feature/GOES-HEK interface; pending raw inputs and no predictive external metric",
+  "solar_transport_handoff_status": "small fail-closed raw-FITS/provider-feature/GOES-HEK interface; auxiliary 2019-05-06 GOES/HEK event provenance probe is reproducible; raw inputs and predictive external metrics remain pending",
   "github_release_handoff": {
     "connection_status": "connected_and_search_verified",
     "target_repository": "yshxkkk/AI",
@@ -66,7 +66,10 @@
     ],
     "handoff_doc": "evidence/github/GITHUB_RELEASE_HANDOFF_CN.md"
   },
-  "stead_gb_native_allocator_status": "pending_missing_input; fail-closed runner added; no real-domain metric promoted without external 12k HDF5",
+  "stead_gb_native_allocator_status": "complete_real_domain_12k_descriptive_audit; 1/64 certificate cells, 3.61% regional routing, 96.39% point fallback; GB-native-S Brier +0.000043 vs point; no accuracy/resource promotion",
   "group_robustness_status": "236-station STEAD, 19-subject EEG and Solar action/support grouped audit; descriptive declared-unit intervals only",
-  "lhc_p4_lightweight_status": "stratified closure with counting-only delta-method intervals and assigned-event decomposition; no prospective/systematic/discovery claim"
+  "lhc_p4_lightweight_status": "stratified closure with counting-only delta-method intervals and assigned-event decomposition; no prospective/systematic/discovery claim",
+  "stead_gb_native_runtime_receipt": "evidence/stead/stead_gb_native_runtime_receipt.json",
+  "solar_partial_event_provenance_status": "2019-05-06 public NOAA/NCEI GOES + LMSAL HEK event probe retrieved and hashed; raw-FITS/provider-feature reconstruction remains pending; no predictive metrics",
+  "solar_partial_event_provenance_artifact": "evidence/solar/sharp_external/partial_event_provenance_20190506/partial_event_provenance_summary.json"
 }
