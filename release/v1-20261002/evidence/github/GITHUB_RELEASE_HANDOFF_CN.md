@@ -2,7 +2,7 @@
 
 当前会话已验证目标仓库 `yshxkkk/AI` 可写：仓库为公开仓库，连接账户对该仓库返回 `admin`，并具备 Contents: write 与 Pull requests: write 权限。已创建独立发布分支 `release/v1-20261002`；默认分支 `main` 未直接修改。
 
-截至 2026-10-03，本地连接器对该分支观察到 **21 个 UTF-8 源/证据文件**，远端分支头为 `63ed53db913d216d9534c997af10aa78948ef40a`。本地 `GITHUB_SUBSET_MANIFEST.json` 描述的是 307 项候选审阅子集；该候选子集尚未全部上传，因此不能把当前分支称为完整发布包。
+截至 2026-10-03，本地连接器对该分支观察到 **26 个 UTF-8 文件（含根目录 README）**，远端分支头为 `bc625f6a26c8e96b7c7d3e3faa0f7dad5db2dc61`。本地 `GITHUB_SUBSET_MANIFEST.json` 描述的是 307 项候选审阅子集；该候选子集尚未全部上传，因此不能把当前分支称为完整发布包。
 
 ## 发布边界
 
@@ -16,7 +16,7 @@
 - 发布分支：`https://github.com/yshxkkk/AI/tree/release/v1-20261002`
 - 权限：已验证 `admin`（包含内容写入与 Pull Request 写入）
 - 默认分支：`main` 保持不变
-- 远端分支头：`63ed53db913d216d9534c997af10aa78948ef40a`
-- 远端已观察 UTF-8 文件数：`21`
+- 远端分支头：`bc625f6a26c8e96b7c7d3e3faa0f7dad5db2dc61`
+- 远端已观察 UTF-8 文件数：`26`（含根目录 README）
 - 本地候选子集清单：`307` 项（尚未全部上传）
 - 审阅策略：优先创建 draft Pull Request；不自动合并。
