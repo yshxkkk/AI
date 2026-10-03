@@ -1,0 +1,4 @@
+domain,unit,status,n_groups,source,limitation
+STEAD,station-hash,complete_descriptive_cluster_bootstrap,236,evidence/stead/stead_station_bootstrap_*,frozen prediction bootstrap; no new waveform or PhaseNet accuracy rerun
+EEG,subject,complete_subject_bootstrap,19,v6/evidence/flagship_external_eeg_91subjects/subject_bootstrap_*,"19 unseen query subjects; empirical group coverage, not clinical validity"
+Solar,HARPNUM,support_action_only,not exposed,evidence/solar/solar_state_inverse_budget.csv,no released row-level HARPNUM IDs; no group-risk interval or transport claim
