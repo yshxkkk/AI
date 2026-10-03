@@ -1,0 +1,5 @@
+# GitHub review branch
+
+This branch contains the auditable source/evidence subset for `From Point Scores to Certified Regional Probabilities` v1. The complete formal release is the current audited archive listed in `PACKAGE_MANIFEST.json` (the manifest currently contains 1,236 packaged file entries); this branch deliberately excludes large PDFs, binary figures and raw public data. The local `GITHUB_SUBSET_MANIFEST.json` describes 307 candidate subset entries, while the observed remote branch snapshot currently contains 21 UTF-8 blobs. Use the manifest and the remote snapshot information in `GITHUB_RELEASE_HANDOFF_CN.md` to distinguish uploaded files from pending candidates.
+
+The branch is `release/v1-20261002` in `yshxkkk/AI`. P0–P5 status is recorded in `FINAL_RELEASE_SUMMARY_CN.md` and `RELEASE_METADATA.json`. Missing raw-data branches are fail-closed: no external Solar transport metric, real STEAD GB-native allocator metric, full LHC detector/systematics fit or Weather action result is fabricated.
