@@ -7,7 +7,7 @@
   "digits_source": "sklearn.datasets.load_digits",
   "permanent_repository": "https://github.com/yshxkkk/AI",
   "doi": null,
-  "repository_status": "target repository identified; release branch created; 17-file audited source/evidence subset uploaded and verified; remaining subset entries and manifest pending",
+  "repository_status": "target repository identified; release branch created; 18-file audited source/evidence subset uploaded and verified; remaining subset entries and manifest pending",
   "solar_external_audit_status": "2019-2024 protocol-only; no external metrics in release",
   "uncertainty_status": "descriptive intervals by station, subject and fixed-block perturbation seed; LHCO ranges only because repeat identifiers are non-unique",
   "reuse_status": "normalized frozen-allocation operation-count replay with an equally capable generic-cache comparator; no hardware or downstream-time claim",
@@ -59,7 +59,7 @@
   "github_release_handoff": {
     "connection_status": "connected_and_search_verified",
     "target_repository": "yshxkkk/AI",
-    "write_status": "admin_permission_verified; release_branch_created; 17_file_subset_uploaded_and_verified; remaining_subset_pending",
+    "write_status": "admin_permission_verified; release_branch_created; 18_file_subset_uploaded_and_verified; remaining_subset_pending",
     "required_permissions": [
       "Contents: write",
       "Pull requests: write"
