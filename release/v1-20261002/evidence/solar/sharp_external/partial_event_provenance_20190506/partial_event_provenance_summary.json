@@ -1,0 +1,70 @@
+{
+  "status": "pending_raw_fits",
+  "transport_audit_complete": false,
+  "predictive_metrics_generated": false,
+  "date_utc": "2019-05-06",
+  "requested_components": {
+    "raw_fits_manifest": false,
+    "provider_summary": false,
+    "raw_reconstructed_features": false,
+    "goes_events": true,
+    "hek_events": true
+  },
+  "blocker": "No HMI/SHARP raw-FITS segments, provider summary, or independently reconstructed 24-feature table are available; event-only parity cannot satisfy transport contract.",
+  "goes_url": "https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/multi/l2/data/xrsf-l2-flrpt_science/csv/sci_xrsf-l2-flrpt_geo_y2019_v1-0-1.csv",
+  "goes_sha256": "1b5ca02a379c064cd3078eb8ae7c8bf83f730737d6c5f0e81f99236678aeea26",
+  "goes_bytes": 65345,
+  "hek_url": "https://www.lmsal.com/hek/her?cosec=2&cmd=search&type=column&event_type=fl&event_starttime=2019-05-06T00%3A00%3A00&event_endtime=2019-05-07T00%3A00%3A00&event_coordsys=helioprojective&x1=-1200&x2=1200&y1=-1200&y2=1200",
+  "hek_sha256": "0ff3551bc8e70850e73b0ad2042453ba846d324a954c1015320004422fb2adcf",
+  "hek_bytes": 491139,
+  "event_counts": {
+    "goes_normalized": 26,
+    "hek_all": 95,
+    "hek_swpc": 17,
+    "hek_ssw": 17
+  },
+  "event_source_comparison": {
+    "all": {
+      "goes_events": 26,
+      "hek_events": 95,
+      "goes_mplus_events": 2,
+      "hek_mplus_events": 1,
+      "nearest_matches_within_tolerance": 25,
+      "nearest_class_letter_agreement_fraction": 0.52,
+      "mplus_nearest_matches_within_tolerance": 2,
+      "mplus_class_letter_agreement_fraction": 0.0,
+      "time_tolerance_h": 1.0,
+      "interpretation": "descriptive event-source comparison only; not a raw-FITS transport or predictive-validation result"
+    },
+    "swpc": {
+      "goes_events": 26,
+      "hek_events": 17,
+      "goes_mplus_events": 2,
+      "hek_mplus_events": 0,
+      "nearest_matches_within_tolerance": 23,
+      "nearest_class_letter_agreement_fraction": 0.6521739130434783,
+      "mplus_nearest_matches_within_tolerance": 2,
+      "mplus_class_letter_agreement_fraction": 0.0,
+      "time_tolerance_h": 1.0,
+      "interpretation": "descriptive event-source comparison only; not a raw-FITS transport or predictive-validation result"
+    },
+    "ssw": {
+      "goes_events": 26,
+      "hek_events": 17,
+      "goes_mplus_events": 2,
+      "hek_mplus_events": 1,
+      "nearest_matches_within_tolerance": 23,
+      "nearest_class_letter_agreement_fraction": 0.6956521739130435,
+      "mplus_nearest_matches_within_tolerance": 2,
+      "mplus_class_letter_agreement_fraction": 0.5,
+      "time_tolerance_h": 1.0,
+      "interpretation": "descriptive event-source comparison only; not a raw-FITS transport or predictive-validation result"
+    }
+  },
+  "claim_scope": [
+    "public GOES/HEK event retrieval and descriptive timestamp/class comparison",
+    "no raw-data provenance claim",
+    "no external predictive metric",
+    "no transport completion"
+  ]
+}
