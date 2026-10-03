@@ -1,0 +1,23 @@
+{
+  "version": "group_robustness_audit_v1",
+  "scope": "existing bundled outputs only; no downloads or refits",
+  "sources": {
+    "stead_summary": "evidence/stead/stead_station_bootstrap_summary.csv",
+    "stead_raw": "evidence/stead/stead_station_bootstrap_raw.csv",
+    "eeg_summary": "v6/evidence/flagship_external_eeg_91subjects/subject_bootstrap_summary.csv",
+    "eeg_raw": "v6/evidence/flagship_external_eeg_91subjects/subject_bootstrap_raw.csv",
+    "solar_state_inverse_budget": "evidence/solar/solar_state_inverse_budget.csv"
+  },
+  "group_counts": {
+    "STEAD_station_keys": 236,
+    "EEG_query_subjects_summary": 19,
+    "EEG_query_subjects_raw": 19
+  },
+  "n_summary_rows": 68,
+  "status": "measured_with_explicit_solar_limitations",
+  "notes": [
+    "Bootstrap intervals are descriptive under the declared grouping units.",
+    "Solar HARPNUM rows report action/support burden only because row-level group keys are absent.",
+    "No universal accuracy, robustness or resource claim is made."
+  ]
+}
