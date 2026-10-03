@@ -1,10 +1,18 @@
 {
-  "status": "pending_data",
+  "status": "pending_raw_fits",
   "raw_manifest": false,
   "raw_fits_receipts": false,
   "provider_summary": false,
   "raw_features": false,
-  "goes_events": false,
-  "hek_events": false,
-  "note": "No Solar raw-FITS manifest supplied; no transport or predictive result generated."
+  "goes_events": true,
+  "hek_events": true,
+  "note": "GOES/HEK event-only provenance probe is present and reproducible; raw-FITS manifest, provider summary and independently reconstructed 24 features are absent, so transport and predictive external validation remain pending.",
+  "event_provenance_probe": "partial_event_provenance_20190506/partial_event_provenance_summary.json",
+  "event_only_counts": {
+    "goes_normalized": 26,
+    "hek_all": 95,
+    "hek_swpc": 17,
+    "hek_ssw": 17
+  },
+  "predictive_metrics_generated": false
 }
