@@ -1,0 +1,10 @@
+{
+  "status": "pending_data",
+  "raw_manifest": false,
+  "raw_fits_receipts": false,
+  "provider_summary": false,
+  "raw_features": false,
+  "goes_events": false,
+  "hek_events": false,
+  "note": "No Solar raw-FITS manifest supplied; no transport or predictive result generated."
+}
