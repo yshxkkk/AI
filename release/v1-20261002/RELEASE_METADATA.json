@@ -7,7 +7,7 @@
   "digits_source": "sklearn.datasets.load_digits",
   "permanent_repository": "https://github.com/yshxkkk/AI",
   "doi": null,
-  "repository_status": "target repository identified; release branch created; 18-file audited source/evidence subset uploaded and verified; remaining subset entries and manifest pending",
+  "repository_status": "target repository identified; release branch created; 21 UTF-8 source/evidence blobs observed on remote branch at commit 63ed53db913d216d9534c997af10aa78948ef40a; local 307-entry candidate subset remains partially uploaded and is not represented as a complete remote release",
   "solar_external_audit_status": "2019-2024 protocol-only; no external metrics in release",
   "uncertainty_status": "descriptive intervals by station, subject and fixed-block perturbation seed; LHCO ranges only because repeat identifiers are non-unique",
   "reuse_status": "normalized frozen-allocation operation-count replay with an equally capable generic-cache comparator; no hardware or downstream-time claim",
@@ -59,12 +59,15 @@
   "github_release_handoff": {
     "connection_status": "connected_and_search_verified",
     "target_repository": "yshxkkk/AI",
-    "write_status": "admin_permission_verified; release_branch_created; 18_file_subset_uploaded_and_verified; remaining_subset_pending",
+    "write_status": "admin_permission_verified; release_branch_created; remote snapshot 21 UTF-8 blobs verified at commit 63ed53db913d216d9534c997af10aa78948ef40a; local candidate subset 307 entries, remaining entries pending",
     "required_permissions": [
       "Contents: write",
       "Pull requests: write"
     ],
-    "handoff_doc": "evidence/github/GITHUB_RELEASE_HANDOFF_CN.md"
+    "handoff_doc": "evidence/github/GITHUB_RELEASE_HANDOFF_CN.md",
+    "remote_snapshot_commit": "63ed53db913d216d9534c997af10aa78948ef40a",
+    "remote_snapshot_blob_count": 21,
+    "local_candidate_subset_entries": 307
   },
   "stead_gb_native_allocator_status": "complete_real_domain_12k_descriptive_audit; 1/64 certificate cells, 3.61% regional routing, 96.39% point fallback; GB-native-S Brier +0.000043 vs point; no accuracy/resource promotion",
   "group_robustness_status": "236-station STEAD, 19-subject EEG and Solar action/support grouped audit; descriptive declared-unit intervals only",
