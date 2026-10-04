@@ -7,7 +7,7 @@
   "digits_source": "sklearn.datasets.load_digits",
   "permanent_repository": "https://github.com/yshxkkk/AI",
   "doi": null,
-  "repository_status": "target repository identified; release branch created; remote snapshot 26 blobs verified at commit bc625f6a26c8e96b7c7d3e3faa0f7dad5db2dc61; local 307-entry candidate subset is not represented as a complete remote release",
+  "repository_status": "target repository identified; release branch created and current public-doc commit is 1ce7a55622ae5552d5571a6dd12adf6c8c25bcbc; main remains unchanged; branch contains the frozen v2 review materials and no DOI",
   "solar_external_audit_status": "2019-2024 protocol-only; no external metrics in release",
   "uncertainty_status": "descriptive intervals by station, subject and fixed-block perturbation seed; LHCO ranges only because repeat identifiers are non-unique",
   "reuse_status": "normalized frozen-allocation operation-count replay with an equally capable generic-cache comparator; no hardware or downstream-time claim",
@@ -89,7 +89,13 @@
     "handoff_doc": "evidence/github/GITHUB_RELEASE_HANDOFF_CN.md",
     "remote_snapshot_commit": "bc625f6a26c8e96b7c7d3e3faa0f7dad5db2dc61",
     "remote_snapshot_blob_count": 26,
-    "local_candidate_subset_entries": 307
+    "local_candidate_subset_entries": 307,
+    "asset_variant": "v8-no-raw-data",
+    "asset_status": "prepared_and_library_archived; GitHub Release asset upload pending secure GitHub account login in browser",
+    "asset_sha256": "bff0657ad0f5d51d49508d7814084a4c21c62c38080a8330d4269503b1239171",
+    "asset_size_bytes": 153984741,
+    "asset_manifest_entries": 1693,
+    "latest_branch_commit": "1ce7a55622ae5552d5571a6dd12adf6c8c25bcbc"
   },
   "stead_gb_native_allocator_status": "complete_real_domain_12k_descriptive_audit; 1/64 certificate cells, 3.61% regional routing, 96.39% point fallback; GB-native-S Brier +0.000043 vs point; no accuracy/resource promotion",
   "group_robustness_status": "236-station STEAD, 19-subject EEG and Solar action/support grouped audit; descriptive declared-unit intervals only",
@@ -201,5 +207,15 @@
       "mint DOI and update metadata",
       "submit frozen PDFs and cover letter"
     ]
-  }
+  },
+  "public_asset_variant": "v8-no-raw-data",
+  "public_asset_sha256": "bff0657ad0f5d51d49508d7814084a4c21c62c38080a8330d4269503b1239171",
+  "public_asset_size_bytes": 153984741,
+  "public_asset_manifest_entries": 1693,
+  "public_asset_manifest_sha256": "7a5459e2b593a8b505c10805a5cf70a9b293b902c9a0ef5bfbdfe6e783726b9f",
+  "public_asset_formal_audit": "PASS",
+  "public_asset_claim_ledger": "PASS (21 claims)",
+  "public_asset_raw_data_policy": "No source observations, source-like event tables, source-side event provenance, raw arrays, compressed event features, or binary state files are included.",
+  "public_asset_derived_outputs_policy": "Derived row-level prediction tables may remain when they are outputs of released analyses; they are explicitly not source observations."
 }
+
