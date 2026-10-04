@@ -7,7 +7,7 @@
   "digits_source": "sklearn.datasets.load_digits",
   "permanent_repository": "https://github.com/yshxkkk/AI",
   "doi": null,
-  "repository_status": "target repository identified; release branch created and current public-doc commit is 1ce7a55622ae5552d5571a6dd12adf6c8c25bcbc; main remains unchanged; branch contains the frozen v2 review materials and no DOI",
+  "repository_status": "target repository identified; release branch contains the frozen v2 review materials and public-asset audit metadata; main remains unchanged; no DOI",
   "solar_external_audit_status": "2019-2024 protocol-only; no external metrics in release",
   "uncertainty_status": "descriptive intervals by station, subject and fixed-block perturbation seed; LHCO ranges only because repeat identifiers are non-unique",
   "reuse_status": "normalized frozen-allocation operation-count replay with an equally capable generic-cache comparator; no hardware or downstream-time claim",
@@ -94,8 +94,7 @@
     "asset_status": "prepared_and_library_archived; GitHub Release asset upload pending secure GitHub account login in browser",
     "asset_sha256": "bff0657ad0f5d51d49508d7814084a4c21c62c38080a8330d4269503b1239171",
     "asset_size_bytes": 153984741,
-    "asset_manifest_entries": 1693,
-    "latest_branch_commit": "1ce7a55622ae5552d5571a6dd12adf6c8c25bcbc"
+    "asset_manifest_entries": 1693
   },
   "stead_gb_native_allocator_status": "complete_real_domain_12k_descriptive_audit; 1/64 certificate cells, 3.61% regional routing, 96.39% point fallback; GB-native-S Brier +0.000043 vs point; no accuracy/resource promotion",
   "group_robustness_status": "236-station STEAD, 19-subject EEG and Solar action/support grouped audit; descriptive declared-unit intervals only",
@@ -218,4 +217,3 @@
   "public_asset_raw_data_policy": "No source observations, source-like event tables, source-side event provenance, raw arrays, compressed event features, or binary state files are included.",
   "public_asset_derived_outputs_policy": "Derived row-level prediction tables may remain when they are outputs of released analyses; they are explicitly not source observations."
 }
-
