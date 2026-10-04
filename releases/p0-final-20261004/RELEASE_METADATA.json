@@ -1,0 +1,205 @@
+{
+  "release_id": "region-native-probabilistic-inference-with-auditable-granular-balls-v2",
+  "release_tag": "region-native-probabilistic-inference-with-auditable-granular-balls-v2.2026-10-03",
+  "license": "MIT",
+  "scope": "P0 region-native probability object with canonical local-surface reference and scalar-first LOCO--PPC selective residual deployment candidate; parent-child pooling; conditional uncertainty, robustness and action certificates; H/S retained only as SI legacy controls",
+  "solar_model_period": "2010-2018",
+  "digits_source": "sklearn.datasets.load_digits",
+  "permanent_repository": "https://github.com/yshxkkk/AI",
+  "doi": null,
+  "repository_status": "target repository identified; release branch created; remote snapshot 26 blobs verified at commit bc625f6a26c8e96b7c7d3e3faa0f7dad5db2dc61; local 307-entry candidate subset is not represented as a complete remote release",
+  "solar_external_audit_status": "2019-2024 protocol-only; no external metrics in release",
+  "uncertainty_status": "descriptive intervals by station, subject and fixed-block perturbation seed; LHCO ranges only because repeat identifiers are non-unique",
+  "reuse_status": "normalized frozen-allocation operation-count replay with an equally capable generic-cache comparator; no hardware or downstream-time claim",
+  "initialization_status": "digits-only descriptive sensitivity audit; explicit k-means++ multi-start and support-guard helper added; frozen STEAD/Solar/LHCO headline tables unchanged",
+  "boundary_scale_audit_status": "fixed-assignment Solar 24/48 h and five-seed Digits quality/routing audit; no point-noninferior precision or measured speed promotion",
+  "latest_manuscript_revision": "2026-10-04 targeted closure upgrade: fresh LHC 600k/100k/300k endpoint plus descriptive sideband/systematics closure; Solar HARPNUM-cluster action-unit bootstrap; LOCO exact-parity vectorized dispatch audit; P0/LOCO/Solar/STEAD/LHC role separation retained.",
+  "manuscript_title": "Region-native probabilistic inference with auditable Granular Balls",
+  "version": "v2",
+  "release_date": "2026-10-03",
+  "submission_document_date": "2026-10-04",
+  "conditional_evidence_version": "conditional-benefits-v1-partial-model-assisted",
+  "conditional_evidence_status": "historical Solar outer-time partial gate; 20-seed synthetic descriptive extension; no unconditional coverage or fresh 2019-2024 confirmation",
+  "claim_ledger": {
+    "path_markdown": "evidence/CLAIM_LEDGER_REGION_NATIVE_V2.md",
+    "path_json": "evidence/CLAIM_LEDGER_REGION_NATIVE_V2.json",
+    "status": "p0_freeze_20261004_authority_with_unified_calibration_workload_audit_and_external_task_boundaries",
+    "claim_count": 21,
+    "canonical_head": "RegionNativeProbabilityModel",
+    "control_heads": [
+      "point-logistic"
+    ],
+    "promoted_extension_heads": [],
+    "explicit_non_claims": [
+      "no_H_or_S_canonical_route",
+      "no_H_or_S_headline_claim",
+      "no_P0_unconditional_coverage_claim",
+      "no_absolute_sample_level_precision_lossless_claim",
+      "no_distribution_free_or_external_pointwise_coverage",
+      "no_end_to_end_speed_claim_from_zero_point_calls",
+      "no_external_2019_2024_solar_transport_validation",
+      "no_promoted_adaptive_granularity_gain",
+      "no_promoted_joint_bayesian_accuracy_gain",
+      "no_promoted_nonlinear_head_gain",
+      "no_promoted_observation_level_bayesian_surface_gain",
+      "no_promoted_oof_class_balanced_accuracy_gain",
+      "no_pure_solar_region_native_rerun_without_raw_inputs",
+      "no_unconditional_regional_posterior_coverage_claim",
+      "no_universal_gb_native_allocator_advantage",
+      "no_universal_region_native_accuracy_gain",
+      "no_universal_region_native_cost_gain",
+      "no_universal_region_native_robustness_gain",
+      "no_universal_regional_accuracy_gain",
+      "no_universal_resource_or_energy_saving",
+      "no_universal_robustness_gain"
+    ],
+    "legacy_controls": [
+      "GB-Logistic-H",
+      "GB-Logistic-S"
+    ],
+    "primary_routes": [
+      "P0-canonical-local-all",
+      "P0-LOCO-PPC-selective-residual"
+    ]
+  },
+  "p5_head_gate_audit": {
+    "status": "PASS",
+    "summary": "evidence/head_registry/P5_HEAD_GATE_AUDIT_SUMMARY.json",
+    "metadata": "evidence/head_registry/P5_HEAD_GATE_AUDIT_META.json",
+    "readme": "evidence/head_registry/P5_HEAD_GATE_AUDIT_README_CN.md",
+    "scope": "released registry schema, zero-radius closure and fallback consistency only",
+    "new_structure_search": false,
+    "recomputed_precision": false,
+    "promoted_extension_heads": []
+  },
+  "main_pages": 16,
+  "supplementary_pages": 87,
+  "gb_native_synthetic_allocator_status": "12-seed synthetic implementation/failure-boundary audit; not external accuracy promotion",
+  "stead_matched_recall_status": "12,000-window station-hash holdout; 0.80 point 815 traces versus regional 839 assigned traces; no matched-recall call saving",
+  "lhc_lightweight_closure_status": "64-cell descriptive sideband-transfer and processing audit; no background-only closure, detector systematic, look-elsewhere or downstream-fit claim",
+  "solar_transport_handoff_status": "small fail-closed raw-FITS/provider-feature/GOES-HEK interface; event-only GOES/HEK provenance sidecar reproducible; current status pending_raw_fits; raw inputs and predictive external metrics remain pending",
+  "github_release_handoff": {
+    "connection_status": "connected_and_search_verified",
+    "target_repository": "yshxkkk/AI",
+    "write_status": "admin_permission_verified; release_branch_created; remote snapshot 26 UTF-8 blobs verified at commit bc625f6a26c8e96b7c7d3e3faa0f7dad5db2dc61; local candidate subset 307 entries, remaining entries pending",
+    "required_permissions": [
+      "Contents: write",
+      "Pull requests: write"
+    ],
+    "handoff_doc": "evidence/github/GITHUB_RELEASE_HANDOFF_CN.md",
+    "remote_snapshot_commit": "bc625f6a26c8e96b7c7d3e3faa0f7dad5db2dc61",
+    "remote_snapshot_blob_count": 26,
+    "local_candidate_subset_entries": 307
+  },
+  "stead_gb_native_allocator_status": "complete_real_domain_12k_descriptive_audit; 1/64 certificate cells, 3.61% regional routing, 96.39% point fallback; GB-native-S Brier +0.000043 vs point; no accuracy/resource promotion",
+  "group_robustness_status": "236-station STEAD, 19-subject EEG and Solar action/support grouped audit; descriptive declared-unit intervals only",
+  "lhc_p4_lightweight_status": "stratified closure with counting-only delta-method intervals and assigned-event decomposition; no prospective/systematic/discovery claim",
+  "stead_gb_native_runtime_receipt": "evidence/stead/stead_gb_native_runtime_receipt.json",
+  "solar_partial_event_provenance_status": "2019-05-06 public NOAA/NCEI GOES + LMSAL HEK event probe retrieved and hashed; raw-FITS/provider-feature reconstruction remains pending; no predictive metrics",
+  "solar_partial_event_provenance_artifact": "evidence/solar/sharp_external/partial_event_provenance_20190506/partial_event_provenance_summary.json",
+  "claim_count": 21,
+  "canonical_model": "RegionNativeProbabilityModel",
+  "canonical_evidence_root": "evidence/region_native",
+  "canonical_model_status": "P0 frozen: canonical local-all is accuracy/mechanism reference; LOCO--PPC selective residual is conditional deployment candidate; query_point_model_calls=0 for regional routes; no universal accuracy/cost claim",
+  "solar_region_native_status": "pure region-native Solar rerun pending raw-FITS/independent GOES-HEK inputs; cached historical region-only diagnostics are explicitly non-canonical",
+  "legacy_controls": {
+    "H": "SI legacy point-nested control; compatibility code retained; not in primary config",
+    "S": "SI legacy point-nested control; compatibility code retained; not in primary config",
+    "status": "retained_for_comparison_only"
+  },
+  "query_contract": "single frozen tree-path allocation -> read/estimate pi_A -> output probability, conditional interval, support/provenance and boundary/OOD state -> reuse, pre-fitted refinement or abstain",
+  "regional_native_repair_status": {
+    "assignment_consistency": "PASS mismatch=0",
+    "recursive_refinement": "implemented bounded training-time split-refit; headline rounds=0",
+    "head_interpretation": "empirical-Bayes plug-in; not full joint Bayesian",
+    "contract_tests": "14/14 PASS",
+    "current_synthetic_refine_delta_brier": "+0.002607 [ +0.001427, +0.003673 ] versus same-role point",
+    "current_digits_refine_delta_brier": "+0.019564 [ +0.016334, +0.022275 ] versus same-PCA12 point",
+    "matched_recall_saving": "not established",
+    "upgrade_audit_status": "six directions executed; OOF/class-balanced and adaptive improve selected regional baselines but no robust matched-point gain; joint Bayesian and nonlinear branches SI-only; Solar pending raw-FITS",
+    "six_direction_upgrade_status": {
+      "oof_class_balanced_child_parent_gate": "SI safety audit; valid-row gain trades coverage; still worse than point",
+      "adaptive_granularity": "six-seed conditional Synthetic raw gain; Digits not transferred; no matched-recall saving",
+      "joint_bayesian": "Laplace approximate extension; no point non-inferiority",
+      "nonlinear_head": "six-seed no stable gain",
+      "solar_transport": "pending_raw_fits; event-only GOES/HEK provenance sidecar; no predictive metric"
+    }
+  },
+  "cover_pages": 2,
+  "solar_transport_runner_sha256": "6dcdfcafb087e12d160a09b3ce5709e1ddedb12ebdf8ac821ef07143a7de67bc",
+  "solar_transport_readme_sha256": "e13a3f9907dd932f34532db914a46514f2eff5a21abde8f8b6c6ad00f2fc101e",
+  "solar_transport_status_sha256": "f9354efa0b05981908977a1446b333c3865ca361c1df76ab0001aba4b2997447",
+  "solar_event_provenance_sha256": "216581432dc3819627dbc07f2a09ad30eb8095bad731c00af0a396f46bd545db",
+  "regional_native_upgrade_audits": {
+    "status": "completed_si_only_no_headline_promotion",
+    "readme": "evidence/region_native/README_SIX_DIRECTION_UPGRADE_CN.md",
+    "matrix": "evidence/region_native/six_direction_upgrade_matrix.csv",
+    "oof_support_gate": "evidence/region_native/refinement_comparison/",
+    "adaptive_granularity": "evidence/region_native/adaptive_granularity/",
+    "joint_bayesian": "evidence/region_native/joint_bayesian_region.py",
+    "nonlinear_head": "evidence/region_native/nonlinear_head_audit/",
+    "solar_transport": "evidence/solar/run_solar_transport_audit.py",
+    "promotion_rule": "matched point non-inferiority plus no hidden coverage/fallback/assigned-work cost; none of the six branches passes the joint promotion gate",
+    "joint_candidate_split_risk": "evidence/next_upgrade/joint_split_risk/full_run_qleaf75/",
+    "precision_lossless_scalar_first": {
+      "status": "six-seed same-topology audit; SI-only; no unconditional lossless promotion",
+      "same_topology_audit": "evidence/next_upgrade/native_bayes_surface/precision_lossless/",
+      "strongest_precision_arm": "evidence/next_upgrade/native_bayes_surface/calibration/results_20261004_hierarchical_temperature/",
+      "synthetic_brier": "0.215015 versus point 0.216762; delta -0.001747",
+      "digits_brier": "0.039512 versus point 0.063558; delta -0.024046",
+      "posterior_predictive_coverage": "0.969 synthetic; 0.304 digits",
+      "query_point_model_calls": 0,
+      "surface_evaluation_reduction": "selective route 37.37% synthetic; 24.03% digits",
+      "promotion_limit": "surface still evaluated for nearly all rows in strongest calibration arm; coverage gate fails on Digits"
+    }
+  },
+  "primary_query_routes": {
+    "accuracy_reference": "P0-canonical-local-all",
+    "deployment_candidate": "P0-LOCO-PPC-selective-residual",
+    "strict_lossless_boundary": "P0-exact-residual-identity",
+    "workload_frontier": "P0-K32-UCB-microball"
+  },
+  "freeze": {
+    "freeze_id": "p0-region-native-freeze-20261004",
+    "main_config_canonical_head": "RegionNativeProbabilityModel",
+    "main_config_control_heads": [
+      "point-logistic"
+    ],
+    "legacy_controls_not_enabled_by_default": [
+      "GB-Logistic-H",
+      "GB-Logistic-S"
+    ],
+    "compatibility_code_retained": true,
+    "main_tex_unchanged_by_release_layer_freeze": true,
+    "main_tex_modified_in_targeted_closure_revision": true
+  },
+  "unified_calibration_status": "six-seed unified independent role complete: child-parent proper scores, ECE, class-balanced/group ESS, Westfall-Young simultaneous correction and PPC; Solar HARPNUM ESS/external time remain protocol-only",
+  "loco_ppc_workload_status": "frozen-prediction replay complete: active surface, unique regions, retrospective matched-recall envelope, arithmetic wall time, RSS and zero query-time Point Logistic calls; excludes fit/routing/I-O/downstream",
+  "lhc_strict_raw_audit_status": "complete: official BlackBox1 HDF5/masterkey; retrospective observed-cap audit plus development-calibrated protocol-repair replication (700k/300k label isolation); 1,000 paired event bootstrap; cap=0.05 assigned-event compression with recall CI crossing zero; no downstream fit/analyst-time claim",
+  "kepler_tce_pilot_status": "SI-only failure boundary: matched system recall 0.80 requires +21.4% TCE call proxy and worsens Brier; no unseen-time validation",
+  "firms_pilot_status": "blocked_exploratory_only: Earthdata authentication, partial derived event table, missing independent perimeter labels and downstream timing",
+  "doi_status": "not_minted_pending_archival_deposit",
+  "repository_freeze_status": "review_branch_only; complete local release authoritative; full repository upload and DOI mint remain external deposit steps",
+  "lhc_downstream_fit_status": "not_executable_in_current_account; official HDF5/masterkey present, but official likelihood/shape-fit, detector response calibration, background-only null ensemble and fit/analyst timing are absent",
+  "final_submission_status": "frozen_2026-10-04_after_targeted_closure_upgrade",
+  "final_submission_freeze": {
+    "freeze_id": "submission-freeze-20261004",
+    "claim_ledger": "evidence/CLAIM_LEDGER_REGION_NATIVE_V2.json",
+    "claim_count": 21,
+    "canonical_head": "RegionNativeProbabilityModel",
+    "primary_routes": [
+      "P0-canonical-local-all",
+      "P0-LOCO-PPC-selective-residual"
+    ],
+    "legacy_controls_si_only": [
+      "GB-Logistic-H",
+      "GB-Logistic-S"
+    ],
+    "new_experiments_stopped": true,
+    "remaining_external_steps": [
+      "complete repository deposit",
+      "mint DOI and update metadata",
+      "submit frozen PDFs and cover letter"
+    ]
+  }
+}
